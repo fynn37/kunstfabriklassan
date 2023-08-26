@@ -170,22 +170,22 @@ main {
     }
     h2 {
         hyphens: auto;
-        font-size: 20px;
+        font-size: 22px;
     }
     #hallob div p{
-        font-size: 16px;
+        font-size: 18px;
         text-align: left;
     }
     #hallol div p{
-        font-size: 16px;
+        font-size: 18px;
         text-align: left;
     } 
     #halloa div p{
-        font-size: 16px;
+        font-size: 18px;
         text-align: left;
     }
     .hallog li a{
-        font-size: 20px;
+        font-size: 18px;
     }
     #halloq h3{
         font-size: 20px;
