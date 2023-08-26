@@ -29,6 +29,10 @@ body {
     }
 }
 
+section {
+    padding-lrft: 10px;
+    padding-right: 10px;
+}
 
 .navigation {
     display: flex;
