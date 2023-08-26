@@ -120,14 +120,14 @@ nav a:hover {
 #hallof {
     background-color: blue;
     padding: 100px 0;
-    display: flex; /* erledigt */
-    justify-content: center; /* erledigt */
+    display: flex;
+    justify-content: center;
     align-items: center;
     align-content: center;
-    justify-items: center; /* erledigt */
-    flex-direction: row; /*erledigt */
-     /* erledigt */
-    column-gap: 20px; /* Spaltenabstand */ 
+    justify-items: center;
+    flex-direction: row; 
+   
+    column-gap: 20px; 
 }
 
 /* <div id="halloweltg"><video controls loop muted width="200" autoplay>
