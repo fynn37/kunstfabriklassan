@@ -49,6 +49,7 @@ nav ul li a {
     h2{
         font-size: 20px;
         hyphens: auto;
+        padding-left: 10px;
     }
     p{
         font-size: 16px;
