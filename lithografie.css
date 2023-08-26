@@ -60,7 +60,6 @@ main {
     background-color: darkolivegreen;
 }
 
-/* HALLOA*/
 #halloa {
     padding-top: 10px;
     display: flex;
@@ -110,8 +109,6 @@ main {
     font-size: 24;
 }
 
-
-/*HALLOB*/
 #hallob {
     display: flex;
     justify-content: center;
