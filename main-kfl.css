@@ -53,7 +53,8 @@ a {
     text-decoration: none;
 }
 nav ul li a {
-    padding: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
     font-weight: 600;
     color: grey;
 }
