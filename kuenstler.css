@@ -77,6 +77,12 @@
     border: 8px solid black;
 }
 
+#hart video{
+    max-width: calc(90%);
+    width: 400px;
+    border: 8px solid black;
+}
+
 #hart p {
     margin-top: 0px;
 }
