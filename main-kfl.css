@@ -61,3 +61,27 @@ nav ul li a {
 main {
     background-color: darkolivegreen;
 }
+
+#fusszeile {
+    text-align: center;
+}
+
+footer a{
+    font-weight: 600;
+    color: grey;
+}
+
+footer a:hover {
+    color: white;
+    transition: 150ms ease-in-out;
+}
+
+@media(max-width: 500px){
+    #fusszeile p{
+        font-size: 18px;
+    }
+    #fusszeile a{
+        font-size: 18px;
+    }
+}
+
