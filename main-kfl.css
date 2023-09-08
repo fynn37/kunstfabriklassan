@@ -79,9 +79,11 @@ footer a:hover {
 @media(max-width: 500px){
     #fusszeile p{
         font-size: 18px;
+        text-align: center;
+        
     }
     #fusszeile a{
         font-size: 18px;
+        text-align: center;
     }
 }
-
