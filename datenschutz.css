@@ -1,0 +1,107 @@
+.hallod {
+    max-width: 95%;
+}
+
+ #halloa {
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 47px;
+}
+
+#fusszeile {
+    text-align: center;
+}
+
+
+
+footer a{
+    font-weight: 600;
+    color: grey;
+}
+
+footer a:hover {
+    color: white;
+    transition: 150ms ease-in-out;
+}
+
+section {
+    padding-left: 10px;
+}
+
+#halloa h2 {
+    text-align: left;
+}
+
+#halloa p {
+    text-align: justify;
+    line-height: 130%;
+    font-size: 24;
+}
+
+#datennav a{
+    color: lightcoral;
+}
+
+
+@media(max-width: 500px){
+    h1{
+        font-size: 32px;
+    }
+    #halloa h1{
+        font-size: 31px;
+        hyphens: auto;
+    }
+    h2 {
+        hyphens: auto;
+        font-size: 22px;
+    }
+    #halloa p{
+        font-size: 18px;
+        text-align: left;
+    }
+    li a{
+        font-size: 18px;
+        hyphens: auto;
+    }
+    li{
+        font-size: 18px;
+        hyphens: auto;
+        
+    }
+    #fusszeile p{
+        font-size: 18px;
+    }
+    #fusszeile a{
+        font-size: 18px;
+    }
+}
+
+#datennav li{
+    text-align: left;
+    display: block;
+    
+}
+
+.hallog {
+    display: flex;
+    text-align: center;
+}
+
+@media screen and (min-width) {
+    color: white;
+    transition: 150ms ease-in-out;
+}
+@media(max-width: 800px){
+    nav ul{
+        display: none;
+        flex-direction: column;
+    }
+    .element-to-hide{
+        display: none;
+    }
+}
+nav a:hover {
+    color: white;
+    transition: 150ms ease-in-out;
+}
