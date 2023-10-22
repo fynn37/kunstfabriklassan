@@ -1,10 +1,14 @@
 @media(max-width: 752px){
-    #hallok{
+    #hauptsec {
         padding-top: 5px;
     }
 }
 
-#hallok {
+#navveranstaltungen a{
+    color: white;
+}
+
+#hauptsec {
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -15,27 +19,10 @@
 
 
 @media(max-width: 850px){
-    #halloi li{
+    #veranstaltungen li{
         text-align: left;
         margin-left: 5px;
     }
-}
-
-#hallof {
-    background-color: blue;
-    padding: 100px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    flex-direction: row;
-    column-gap: 20px;
-}
-
-#hallod {
-    width: 750px;
-    max-width: 95%;
 }
 
 .dicker{
@@ -57,12 +44,12 @@
     li a{
         font-size: 20px;
     }
-    #halloi li{
+    #veranstaltungen li{
         font-size: 18px;
     }
 }
 
-#halloi {
+#veranstaltungen {
     width: 750px;
 }
 
@@ -76,13 +63,13 @@
     }
 }
 
-.hallog {
+#navi {
     display: flex;
     text-align: center;
 }
 
 @media screen and (min-width) {
-    #teaser {
+    #titelbild {
         height: 600px;
     }
 }
