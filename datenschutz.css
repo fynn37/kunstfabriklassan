@@ -1,8 +1,8 @@
-.hallod {
+.text {
     max-width: 95%;
 }
 
- #halloa {
+ #hauptsec {
     padding-top: 10px;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,9 @@
     text-align: center;
 }
 
-
+#fusszeile p a{
+    color: white;
+}
 
 footer a{
     font-weight: 600;
@@ -29,11 +31,11 @@ section {
     padding-left: 10px;
 }
 
-#halloa h2 {
+#hauptsec h2 {
     text-align: left;
 }
 
-#halloa p {
+#hauptsec p {
     text-align: justify;
     line-height: 130%;
     font-size: 24;
@@ -48,7 +50,7 @@ section {
     h1{
         font-size: 32px;
     }
-    #halloa h1{
+    #hauptsec h1{
         font-size: 31px;
         hyphens: auto;
     }
@@ -56,7 +58,7 @@ section {
         hyphens: auto;
         font-size: 22px;
     }
-    #halloa p{
+    #hauptsec p{
         font-size: 18px;
         text-align: left;
     }
@@ -83,7 +85,7 @@ section {
     
 }
 
-.hallog {
+#navi {
     display: flex;
     text-align: center;
 }
