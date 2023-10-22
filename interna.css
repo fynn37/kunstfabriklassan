@@ -1,9 +1,9 @@
-#hallod {
+#text {
     width: 750px;
     max-width: 95%;
 }
 
- #halloa {
+ #seceins {
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@
     flex-wrap: wrap-reverse;
 }
 
-#halloa h2 {
+#seceins h2 {
     text-align: left;
 }
 
@@ -21,18 +21,18 @@
     margin-top: 7px;
 }
 
-#halloa img {
+#seceins img {
     width: 320px;
     border: 8px solid black;
     max-width: calc(90%);
 }
-#halloa p {
+#seceins p {
     text-align: justify;
     line-height: 130%;
     font-size: 24;
 }
 
-#hallot {
+#seczwei {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -41,14 +41,14 @@
     flex-wrap: wrap-reverse;
 }
 
-#hallot img {
+#seczwei img {
     width: 320px;
     margin-bottom: 7px;
     max-width: calc(90%);
     border: 10px solid black;
 }
 
-#hallot p {
+#seczwei p {
     text-align: justify;
     line-height: 130%;
     font-size: 24;
@@ -62,7 +62,7 @@
         hyphens: auto;
         font-size: 22px;
     }
-    #hallod p{
+    #text p{
         font-size: 18px;
         text-align: left;
     }
@@ -80,15 +80,19 @@
     }
 }
 @media(max-width: 1270px){
-    #halloa img{
+    #seceins img{
         width: 750px;
     }
-    #hallot img{
+    #seczwei img{
         width: 750px;
     }
 }
 
-.hallog {
+#navinterna a{
+    color: white;
+}
+
+#navi {
     display: flex;
     text-align: center;
 }
