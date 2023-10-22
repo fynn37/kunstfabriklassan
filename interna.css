@@ -1,9 +1,15 @@
+/*classes*/
+.abstand img{
+    margin-top: 7px;
+}
+
+
+/*id´s*/
 #text {
     width: 750px;
     max-width: 95%;
 }
-
- #seceins {
+#seceins {
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -12,15 +18,9 @@
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
 }
-
 #seceins h2 {
     text-align: left;
 }
-
-.abstand img{
-    margin-top: 7px;
-}
-
 #seceins img {
     width: 320px;
     border: 8px solid black;
@@ -31,7 +31,6 @@
     line-height: 130%;
     font-size: 24;
 }
-
 #seczwei {
     display: flex;
     justify-content: center;
@@ -40,20 +39,36 @@
     flex-direction: row;
     flex-wrap: wrap-reverse;
 }
-
 #seczwei img {
     width: 320px;
     margin-bottom: 7px;
     max-width: calc(90%);
     border: 10px solid black;
 }
-
 #seczwei p {
     text-align: justify;
     line-height: 130%;
     font-size: 24;
 }
+#navinterna a{
+    color: white;
+}
+#navi {
+    display: flex;
+    text-align: center;
+}
 
+
+/*@media´s*/
+@media(max-width: 800px){
+    nav ul{
+        display: none;
+        flex-direction: column;
+    }
+    .element-to-hide{
+        display: none;
+    }
+}
 @media(max-width: 500px){
     h1{
         font-size: 32px;
@@ -79,6 +94,11 @@
     margin-right: 0px;
     }
 }
+@media screen and (min-width) {
+    #titelbild {
+        height: 600px;
+    }
+}
 @media(max-width: 1270px){
     #seceins img{
         width: 750px;
@@ -86,31 +106,4 @@
     #seczwei img{
         width: 750px;
     }
-}
-
-#navinterna a{
-    color: white;
-}
-
-#navi {
-    display: flex;
-    text-align: center;
-}
-
-@media screen and (min-width) {
-    color: white;
-    transition: 150ms ease-in-out;
-}
-@media(max-width: 800px){
-    nav ul{
-        display: none;
-        flex-direction: column;
-    }
-    .element-to-hide{
-        display: none;
-    }
-}
-nav a:hover {
-    color: white;
-    transition: 150ms ease-in-out;
 }
