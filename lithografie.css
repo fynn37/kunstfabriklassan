@@ -1,12 +1,18 @@
+/*classes*/
+.text {
+    width: 750px;
+    max-width: 95%;
+}
+
+
+/*id´s*/
 #navi {
     display: flex;
     text-align: center;
 }
-
 #navlithografie a{
     color: white;
 }
-
 #seceins {
     padding-top: 10px;
     display: flex;
@@ -30,8 +36,6 @@
     line-height: 130%;
     font-size: 24;
 }
-
-/*SECZWEI*/
 #seczwei {
     display: flex;
     justify-content: center;
@@ -55,7 +59,6 @@
     line-height: 130%;
     font-size: 24;
 }
-
 #secdrei {
     display: flex;
     justify-content: center;
@@ -85,11 +88,8 @@
     margin-top: 50px;
 }
 
-.text {
-    width: 750px;
-    max-width: 95%;
-}
 
+/*@media´s*/
 @media screen and (min-width) {
     #titelbild {
         height: 600px;
@@ -107,7 +107,6 @@
         width: auto;
     }
 }
-
 @media(max-width: 500px){
     h1{
         font-size: 32px;
