@@ -1,7 +1,4 @@
-#navhome a{
-    color: white;
-}
-
+/*generell*/
 section {
     padding-left: 10px;
     padding-right: 10px;
@@ -11,13 +8,18 @@ h2{
     padding-top: 10px;
 }
 
-nav a:hover {
+
+/*id´s*/
+#navhome a{
     color: white;
-    transition: 150ms ease-in-out;
 }
 
 
-@media (max-width: 500px){
+/*@media´s*/
+@media(max-width: 500px){
+    #kontaktsection h2+p{
+        text-align: left;
+    }
     h1{
         font-size: 32px;
     }
@@ -33,19 +35,11 @@ nav a:hover {
         font-size: 20px;
     }
 }
-
-@media(max-width: 500px){
-    #kontaktsection h2+p{
-        text-align: left;
-    }
-}
-
 @media screen and (min-width: 800px) {
     #titelbild {
         height: 600px;
     }
 }
-
 @media(min-width: 850px){
     nav ul{
         flex-direction: column;
