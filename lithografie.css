@@ -1,9 +1,13 @@
-.hallog {
+#navi {
     display: flex;
     text-align: center;
 }
 
-#halloa {
+#navlithografie a{
+    color: white;
+}
+
+#seceins {
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -12,23 +16,23 @@
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
 }
-#halloa h2 {
+#seceins h2 {
     text-align: left;
 }
-#halloa img {
+#seceins img {
     width: 425px;
     border: 10px solid black;
     justify-content: center;
     max-width: calc(90%);
 }
-#halloa p {
+#seceins p {
     text-align: justify;
     line-height: 130%;
     font-size: 24;
 }
 
-/*HALLOL*/
-#hallol {
+/*SECZWEI*/
+#seczwei {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,23 +40,23 @@
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
 }
-#hallol h2 {
+#seczwei h2 {
     text-align: left;
 }
 
-#hallol img {
+#seczwei img {
     width: 200px;
     border: 8px solid black;
     margin-bottom: 10px;
     max-width: calc(90%);
 }
-#hallol p {
+#seczwei p {
     text-align: justify;
     line-height: 130%;
     font-size: 24;
 }
 
-#hallob {
+#secdrei {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,10 +64,10 @@
     flex-direction: row;
     flex-wrap: wrap-reverse;
 }
-#hallob h2 {
+#secdrei h2 {
     text-align: left;
 }
-#hallob img {
+#secdrei img {
     margin-left: 90px;
     margin-right: 90px;
     width: 250px;
@@ -71,26 +75,23 @@
     margin-bottom: 10px;
     max-width: calc(90%);
 }
-#hallob p {
+#secdrei p {
     text-align: justify;
     line-height: 130%;
     font-size: 24;
 }
 
-
-
-#halloq h3 {
+#secvier h3 {
     margin-top: 50px;
 }
-#hallod {
+
+.text {
     width: 750px;
     max-width: 95%;
 }
 
-
-
 @media screen and (min-width) {
-    #teaser {
+    #titelbild {
         height: 600px;
     }
 }
@@ -102,7 +103,7 @@
     .element-to-hide{
         display: none;
     }
-    #hallol div img{
+    #seczwei div img{
         width: auto;
     }
 }
@@ -115,34 +116,34 @@
         hyphens: auto;
         font-size: 22px;
     }
-    #hallob div p{
+    #secdrei div p{
         font-size: 18px;
         text-align: left;
     }
-    #hallol div p{
+    #seczwei div p{
         font-size: 18px;
         text-align: left;
     } 
-    #halloa div p{
+    #seceins div p{
         font-size: 18px;
         text-align: left;
     }
-    .hallog li a{
+    #navi li a{
         font-size: 20px;
     }
-    #halloq h3{
+    #secvier h3{
         font-size: 20px;
     }
-    #halloq p{
+    #secvier p{
         font-size: 18px;
     }
-    #hallob img {
+    #secdrei img {
     margin-left: 0px;
     margin-right: 0px;
     }
 }
 @media(max-width: 1270px){
-    #hallob img{
+    #secdrei img{
         max-height: 750px;
         max-width: 700px;
         max-width: 90%;
@@ -150,10 +151,13 @@
         justify-content: center;
         align-items: center;
     }
-    #hallol img {
+    #seczwei img {
         width: 356px;
     }
-    #halloa img{
+    #seceins img{
         width: 730.8px;
+    }
+    #secvier h3 {
+        margin-top: 20px;
     }
 }
