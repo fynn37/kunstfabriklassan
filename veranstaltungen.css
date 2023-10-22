@@ -1,13 +1,13 @@
-@media(max-width: 752px){
-    #hauptsec {
-        padding-top: 5px;
-    }
+/*classes*/
+.dicker{
+    color: lightblue;
 }
 
+
+/*id´s*/
 #navveranstaltungen a{
     color: white;
 }
-
 #hauptsec {
     padding-top: 10px;
     display: flex;
@@ -16,19 +16,21 @@
     column-gap: 45px;
     flex-direction: row-reverse;
 }
+#veranstaltungen {
+    width: 750px;
+}
+#navi {
+    display: flex;
+    text-align: center;
+}
 
 
-@media(max-width: 850px){
-    #veranstaltungen li{
-        text-align: left;
-        margin-left: 5px;
+/*@media´s*/
+@media(max-width: 752px){
+    #hauptsec {
+        padding-top: 5px;
     }
 }
-
-.dicker{
-    color: lightblue;
-}
-
 @media(max-width: 500px){
     h1{
         font-size: 32px;
@@ -48,11 +50,12 @@
         font-size: 18px;
     }
 }
-
-#veranstaltungen {
-    width: 750px;
+@media(max-width: 850px){
+    #veranstaltungen li{
+        text-align: left;
+        margin-left: 5px;
+    }
 }
-
 @media(max-width: 800px){
     nav ul{
         display: none;
@@ -62,19 +65,8 @@
         display: none;
     }
 }
-
-#navi {
-    display: flex;
-    text-align: center;
-}
-
 @media screen and (min-width) {
     #titelbild {
         height: 600px;
     }
-}
-
-nav a:hover {
-    color: white;
-    transition: 150ms ease-in-out;
 }
