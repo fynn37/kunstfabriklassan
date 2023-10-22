@@ -1,3 +1,22 @@
+#navhome a{
+    color: white;
+}
+
+section {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2{
+    padding-top: 10px;
+}
+
+nav a:hover {
+    color: white;
+    transition: 150ms ease-in-out;
+}
+
+
 @media (max-width: 500px){
     h1{
         font-size: 32px;
@@ -15,24 +34,15 @@
     }
 }
 
-section {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-h2{
-    padding-top: 10px;
-}
-
-@media screen and (min-width: 800px) {
-    #teaser {
-        height: 600px;
+@media(max-width: 500px){
+    #kontaktsection h2+p{
+        text-align: left;
     }
 }
 
-@media(max-width: 500px){
-    #hallof h2+p{
-        text-align: left;
+@media screen and (min-width: 800px) {
+    #titelbild {
+        height: 600px;
     }
 }
 
@@ -40,13 +50,8 @@ h2{
     nav ul{
         flex-direction: column;
     }
-    .hallog {
+    #navi {
     display: flex;
     text-align: center;
     }
-}
-
- nav a:hover {
-    color: white;
-    transition: 150ms ease-in-out;
 }
