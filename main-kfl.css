@@ -1,3 +1,5 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap');*/
+
 /* devanagari */
 @font-face {
   font-family: 'Halant';
@@ -37,12 +39,12 @@ body {
     color: white;
     background-color: darkslategray;
 }
-#teaser {
+#titelbild {
     width: 100%;
     height: 300px;
 }
 
-#teaser img {
+#titelbild img {
     width: 100%;
     height: 100%;
     object-fit: cover;
