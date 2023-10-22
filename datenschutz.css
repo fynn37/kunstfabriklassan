@@ -1,51 +1,55 @@
-.text {
-    max-width: 95%;
-}
-
- #hauptsec {
-    padding-top: 10px;
-    justify-content: center;
-    align-items: center;
-    column-gap: 47px;
-}
-
-#fusszeile {
-    text-align: center;
-}
-
-#fusszeile p a{
-    color: white;
-}
-
+/*generell*/
 footer a{
     font-weight: 600;
     color: grey;
-}
-
-footer a:hover {
-    color: white;
-    transition: 150ms ease-in-out;
 }
 
 section {
     padding-left: 10px;
 }
 
+
+/*classes*/
+.text {
+    max-width: 95%;
+}
+
+
+/*id´s*/
+#hauptsec {
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 47px;
+}
 #hauptsec h2 {
     text-align: left;
 }
-
 #hauptsec p {
     text-align: justify;
     line-height: 130%;
     font-size: 24;
 }
-
 #datennav a{
     color: lightcoral;
 }
+#datennav li{
+    text-align: left;
+    display: block; 
+}
+#navi {
+    display: flex;
+    text-align: center;
+}
+#fusszeile {
+    text-align: center;
+}
+#fusszeile p a{
+    color: white;
+}
 
 
+/*@media´s*/
 @media(max-width: 500px){
     h1{
         font-size: 32px;
@@ -78,18 +82,6 @@ section {
         font-size: 18px;
     }
 }
-
-#datennav li{
-    text-align: left;
-    display: block;
-    
-}
-
-#navi {
-    display: flex;
-    text-align: center;
-}
-
 @media screen and (min-width) {
     color: white;
     transition: 150ms ease-in-out;
@@ -102,8 +94,4 @@ section {
     .element-to-hide{
         display: none;
     }
-}
-nav a:hover {
-    color: white;
-    transition: 150ms ease-in-out;
 }
