@@ -1,5 +1,4 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap');*/
-
 /* devanagari */
 @font-face {
   font-family: 'Halant';
@@ -28,49 +27,21 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+
+/*generell*/
 * {
     margin: 0px;
     padding: 0px;
 }
-
 body {
     font-family: 'Halant', sans-serif;
     font-size: 24px;
     color: white;
     background-color: darkslategray;
 }
-#titelbild {
-    width: 100%;
-    height: 300px;
-}
-
-#titelbild img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.navigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.ganzenavigation {
-    display: flex;
-    text-align: center;
-}
-
-nav a:hover {
-    color: white;
-    transition: 150ms ease-in-out;
-}
 header {
     text-align: center;
 }
-
 section {
     text-align: center;
 }
@@ -89,21 +60,50 @@ nav ul li a {
 main {
     background-color: darkolivegreen;
 }
-
-#fusszeile {
-    text-align: center;
-}
-
 footer a{
     font-weight: 600;
     color: grey;
 }
-
 footer a:hover {
     color: white;
     transition: 150ms ease-in-out;
 }
+nav a:hover {
+    color: white;
+    transition: 150ms ease-in-out;
+}
 
+
+/*classes*/
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ganzenavigation {
+    display: flex;
+    text-align: center;
+}
+
+
+/*id´s*/
+#fusszeile {
+    text-align: center;
+}
+#titelbild {
+    width: 100%;
+    height: 300px;
+}
+#titelbild img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*@media´s*/
 @media(max-width: 500px){
     #fusszeile p{
         font-size: 18px;
