@@ -34,7 +34,7 @@
 #seczwei {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     column-gap: 47px;
     flex-direction: row;
     flex-wrap: wrap-reverse;
